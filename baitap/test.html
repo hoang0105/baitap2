@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        font-size: 1.1rem;
+    }
+    body{margin: 0;padding: 0; }
+    form{height: 100vh;display: flex;
+    justify-content: center;
+    align-items: center;}
+    tr{padding: 130px;}
+    label{float: right;font-weight: 600;}
+    .stylewidth{width:210px}
+    #birthday{width: 213px;}
+    #gtfix{transform: translateY(3px);}
+</style>
+<body>
+    <form action="">
+        <table>
+            <tr>
+                <td><label for="hoten">Họ và tên : </label></td>
+                <td><input type="text" id="stylewidth" name="hoten"></td>
+            </tr>
+            <tr>
+                <td><label for="hoten">Ngày sinh : </label></td>
+                <td><input type="date" id="birthday" name="birthday"></td>
+            </tr>
+            <tr>
+                <td><label for="hoten">Giới tính : </label></td>
+                <td>Nam <input type="radio" name="gioitinh" id="gtfix"> Nữ <input type="radio"name="gioitinh"id="gtfix"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email : </label></td>
+                <td><input type="email" id="email" name="email"></td>
+            </tr>
+            <tr>
+                <td><label for="taikhoan">Tài khoản : </label></td>
+                <td><input type="text" id="taikhoan" name="taikhoan"></td>
+            </tr>
+            <tr>
+                <td><label for="matkhau">Mật Khẩu : </label></td>
+                <td><input type="password" id="matkhau" name="matkhau"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td> <button type="submit" name="submit"> Xác Nhận</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

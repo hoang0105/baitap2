@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add tin</title>
+</head>
+
+<body>
+    <h1>Form Add tin</h1>
+    <form action="form.php" method="post">
+        <table>
+            <tr>
+                <td>Tên tin : </td>
+                <td><input type="text" name="tieude" id="" class="TieuDe"></td>
+            </tr>
+            <tr>
+                <td>Tóm tắt : </td>
+                <td><input type="text" name="tomtat" id="" class="TomTat"></td>
+            </tr>
+            <tr>
+                <td>Url Hình : </td>
+                <td><input type="file" name="urlhinh" id="" class="urlHinh"></td>
+            </tr>
+            <tr>
+                <td>Ngày : </td>
+                <td><input type="date" name="ngay" id="" class="Ngay"></td>
+            </tr>
+            <tr>
+                <td>Id user : </td>
+                <td><input type="text" name="iduser" id="" class="idUser"></td>
+            </tr>
+            <tr>
+                <td>Id sk : </td>
+                <td><input type="text" name="idsk" id="" class="idSk"></td>
+            </tr>
+            <tr>
+                <td>Id LT : </td>
+                <td><input type="text" name="idlt" id="" class="idLT"></td>
+            </tr>
+            <tr>
+                <td>An hien : </td>
+                <td>
+                    <select id="anhien" name="anhien">
+                        <option value="0" selected>an</option>
+                        <option value="1">Hien</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><button type="submit">Add</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
